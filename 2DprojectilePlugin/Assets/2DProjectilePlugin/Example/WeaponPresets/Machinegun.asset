@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d08ad9bb7389b24594040033382c4bf, type: 3}
+  m_Name: Machinegun
+  m_EditorClassIdentifier: 
+  weaponName: Machinegun
+  clipSize: 30
+  startingAmmo: 300
+  ammoUsagePerShot: 1
+  shootMode: 0
+  reloadType: 1
+  cooldown: 0.07
+  reloadTime: 1.8
+  projectileSpeed: 45
+  spread: 6
+  shotCount: 1
+  speedVariation: 1
+  variationAmount: 0.1
+  bulletPrefab: {fileID: 1173582832794326, guid: af28b8ebb7658be4cbf9c40f9e04dd30,
+    type: 2}
+  enemyBulletPrefab: {fileID: 1173582832794326, guid: 45cabb7faa5585e45be4536302b2f094,
+    type: 2}

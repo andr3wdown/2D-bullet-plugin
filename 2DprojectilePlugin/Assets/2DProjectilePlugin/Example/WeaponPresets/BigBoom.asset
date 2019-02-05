@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d08ad9bb7389b24594040033382c4bf, type: 3}
+  m_Name: BigBoom
+  m_EditorClassIdentifier: 
+  weaponName: BigBoom
+  clipSize: 6
+  startingAmmo: 60
+  ammoUsagePerShot: 1
+  shootMode: 0
+  reloadType: 1
+  cooldown: 1
+  reloadTime: 3
+  projectileSpeed: 40
+  spread: 0
+  shotCount: 1
+  speedVariation: 0
+  variationAmount: 0.2
+  bulletPrefab: {fileID: 1212454836165078, guid: 83223e64863d2a242be959f9a8005e9b,
+    type: 2}
+  enemyBulletPrefab: {fileID: 1212454836165078, guid: 87c22b9684f6de441b66f082683037c5,
+    type: 2}
